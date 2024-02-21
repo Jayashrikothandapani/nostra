@@ -1,0 +1,298 @@
+/*google font*/
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*Offer Bar*/
+.offerbar{
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding-left: 310px;
+    
+}
+#x{
+    cursor: pointer;
+}
+/*nav bar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    padding: 5px;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.navbar__2{
+    display: flex;
+    gap: 25px;
+}
+.navbar__2 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*figure*/
+.figure{
+    position: relative;
+}
+.figure img{
+    width: 100%;
+}
+.figure__1{
+    position: absolute;
+    top: 120px;
+    color: white;
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+    padding: 9px;
+    align-items: center;
+}
+#slider-left-activate{
+    font-size: 80px;
+}
+.figure__1 h1{
+    font-size: 60px;
+}
+.figure__1 h4{
+    font-size: 30px;
+}
+#figure__button{
+padding: 5px;
+padding-left: 10px;
+}
+/*brands*/
+.brand__1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.brand__1 p{
+font-size: 20px;
+}
+.brands-icon{
+    
+    width: 40px;
+}
+/*experiences*/
+.exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.exp__1{
+    width: 320px;
+}
+.exp__2 p{
+    font-size: 20px;
+}
+/*experience container*/
+.expcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+.expcontainer__1,.expcontainer__2,.expcontainer__3,.expcontainer__4{
+    background-color: #F2F4F7;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*Newarrivals*/
+.new-arrival {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.new-arrival-container {
+    position: relative;
+}
+
+.overlay {
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+}
+
+.new-arrival button{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+.new-arrival button {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #1D232C;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 18%;
+    z-index: 2;
+}
+/*Most Wanted*/
+.mostwanted{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mostwanted-1{
+    position: relative;
+}
+.mostwanted button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.mostwanted-1 p{
+    font-size: 25px;
+    position: absolute;
+    bottom: 3px;
+    right: 7px;
+}
+/*offer*/
+.offer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E242D;
+    padding: 20px;
+    margin: 5px;
+}
+.offer h1{
+    color: white;
+    font-size: 40px;
+}
+.offer p{
+    color: white;
+    font-size: 25px;
+}
+.offer button{
+    padding: 8px;
+}
+
+/*newsletter*/
+.news{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.news h1{
+    font-size: 40px;
+}
+.news p{
+    font-size: 25px;
+}
+.news input{
+    width: 1000px;
+    padding: 10px;
+    border: solid black 5px;
+
+}
+.news button{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/*footer*/
+.footer{
+    background-color: #1D232C;
+    padding: 30px;
+}
+.footer h1{
+    color: white;
+    font-size: 50px;
+}
+.footer p{
+    color: white;
+    font-size: 30px;
+}
+.footer-2{
+    display: flex;
+    gap: 45px;
+}
+/*/.menubar*/
+.menubar{
+    cursor: pointer;
+}
+/*menubaritems*/
+ /*menubsaritems*/
+ .menubaritems{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    background-color: #1D232C;
+    color: white;
+    z-index: 20;
+    justify-content: space-around;
+    left: -50%;
+    display: none;
+    
+   
+}
+.menubaritems-1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+.menubaritems-1 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#p{
+    cursor: pointer;
+}
+
+
+
+/*Query Selector*/
+@media screen and (max-width: 900px) {
+    .navbar__2{display: none;}
+    .offerbar{text-align: center;
+    padding: 10px;}
+    .menubar{display: block;}
+    .figure__1{display: none;}
+    /*offer*/
+    .offer-1 img{width: 100px;}
+    
+    /*news*/
+    .news input{width: 100px;}
+    
+
+   
+    
+}
+@media screen and (min-width: 900px){
+    .menubar{display: none;
+    text-align: right;
+padding: 10px;}
+.menubaritems{display: none;}
+}
